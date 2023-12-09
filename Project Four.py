@@ -58,5 +58,8 @@ label.pack(pady=10)
 button = tk.Button(root, text="Find Smallest Number", command=finder)
 button.pack(pady=10)
 
-# Run the Tkinter event loop
 root.mainloop()
+
+
+"""As we run this section of the program we see it work well. It finds the smallest number between the numbers input. For example from 1 to 10 it finds 1. And when input a series of numbers, even with a negative it still finds the smallest.
+However, when anything other than a number is inserted then the program breaks down."""
